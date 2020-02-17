@@ -30,16 +30,17 @@ print("[INFO] starting video stream...")
 vs = VideoStream(src=0).start()
 # vs = VideoStream(usePiCamera=True).start()
 time.sleep(2.0)
-
+print("[INFO] started video stream...") 
 # start the FPS counter
 fps = FPS().start()
-
 # loop over frames from the video file stream
 while True:
 	# grab the frame from the threaded video stream and resize it
 	# to 500px (to speedup processing)
+
 	frame = vs.read()
-	frame = imutils.resize(frame, width=500)
+	# error thrown on this line
+	# frame = imutils.resize(frame, width=500)
 	
 	# convert the input frame from (1) BGR to grayscale (for face
 	# detection) and (2) from BGR to RGB (for face recognition)
