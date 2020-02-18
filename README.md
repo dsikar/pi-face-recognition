@@ -1,5 +1,11 @@
 # Raspberry Pi Zero W face recognition
-Based on https://www.pyimagesearch.com/2018/06/25/raspberry-pi-face-recognition/
+Based on https://www.pyimagesearch.com/2018/06/25/raspberry-pi-face-recognition/  
+
+After modifications, run:
+```
+$ python3 encode_faces.py --dataset dataset --encodings all_crew.pickle --detection-method hog
+$ python3 pi_face_recognition.py --cascade haarcascade_frontalface_default.xml --encodings all_crew.pickle
+```
 
 ** Mods**  
   
