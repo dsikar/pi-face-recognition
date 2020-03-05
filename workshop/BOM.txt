@@ -1,0 +1,11 @@
+Workshop hardware:
+
+1. Raspberry Pi Zero W
+2. Camera
+3. USB powered hub
+4. USB Cable Type A Male to Micro Type B male (power)
+5. HDMI to Mini HDMI Adapter Female to Male (display)
+6. HDMI cable x2 (pi and laptop)
+7. Keyboard (pi)
+8. Mouse (pi)
+9. HDMI Splitter
